@@ -8,6 +8,15 @@ h2{
 }
 /*nav bar*/
 .nav-pills{
+  /*stop users from hilighting nav pills*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
   
