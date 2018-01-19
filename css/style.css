@@ -2,6 +2,8 @@
 body{
   background-color:black;
   font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 h2{
   text-size:50%;
@@ -75,16 +77,16 @@ a{
 
 }
 .pageTwo{
-  
-  width:97vw;
+  width:100vw;
   margin-top:0px;
   margin-left:auto;
   margin-right:auto;
   color:#336B87;
   background:#2A3132;
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+}
+h3{
+  font-size:5em;
+  text-decoration: underline;
 }
 .portfolioImage{
   margin-top:10vh;
@@ -95,8 +97,6 @@ a{
   margin-bottom:10vh;
 }
 
-
-
 .pageThree{
   width:90vw;
   margin-top:0;
@@ -106,7 +106,4 @@ a{
   height:600px;
   
   color:white;
-}
-.pageThreeLeftContent{
-  margin-top: 80px;
 }
