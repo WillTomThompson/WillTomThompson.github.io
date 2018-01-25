@@ -1,0 +1,109 @@
+
+body{
+  background-color:black;
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h2{
+  text-size:50%;
+}
+/*nav bar*/
+.nav-pills{
+  /*stop users from hilighting nav pills*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  
+  font-size: 1.7em;
+  background-color:#2A3132;
+  
+  z-index:100;
+  
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+#william{
+  margin-left:5vw;
+}
+#about{
+  margin-right:5vw;
+}
+.pageOne{
+  margin-top:0vh;
+  color:#336B87;
+  background:url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1950&q=80');
+  background-size:cover-;
+  height:1000px;
+}
+.pageOneContent{
+  margin-top:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.btn-default{
+  background-color:black;
+  border-color:black;
+  color:#336B87;
+}
+a{
+  color:#336B87;
+}
+.block{
+  background-color:black;  
+  width:30vw;
+  padding:20px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+}
+.pageOneBlock{
+  color:white;
+}
+.pageOneButtons{
+  margin:10px;
+}
+.profileImg{
+  height:200px;
+  border-radius:50%;
+
+}
+.pageTwo{
+  width:100vw;
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  color:#336B87;
+  background:#2A3132;
+}
+h3{
+  font-size:5em;
+  text-decoration: underline;
+}
+.portfolioImage{
+  margin-top:10vh;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+  width:30vw;
+  margin-bottom:10vh;
+}
+
+.pageThree{
+  width:90vw;
+  margin-top:0;
+  color:#336B87;
+  background-color:Black;
+  background-size:cover;
+  height:600px;
+  
+  color:white;
+}
